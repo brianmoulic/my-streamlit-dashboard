@@ -6,7 +6,10 @@ import streamlit as st
 
 st.set_page_config(page_title="Air Quality Advisory Support", layout="wide")
 
-ASSETS = "final_assets"
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+ASSETS = BASE_DIR / "final_assets"
 MODEL_FILES = {
     "Decision Tree": "decision_tree.joblib",
     "Bagging": "bagging.joblib",
