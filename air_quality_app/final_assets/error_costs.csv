@@ -1,0 +1,6 @@
+Model,Missed Unhealthy,Missed Moderate,False Alarms,Estimated Error Cost,"Cost per 1,000 days"
+AdaBoost,45,208,2245,769750,47674
+Decision Tree,75,156,2470,901500,55834
+Bagging,79,151,2508,922200,57116
+Random Forest,126,147,2250,1114500,69026
+Gradient Boosting,233,589,425,1817750,112582
